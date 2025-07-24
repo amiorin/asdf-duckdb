@@ -83,10 +83,10 @@ get_url() {
 		os="linux"
 		if [ "$(uname -m)" == "x86_64" ]; then
 			arch="amd64"
-		elif [ "$(uname -m)" == "arm*"]; then
+		elif [ "$(uname -m)" == "arm*" ]; then
 			# Warning: untested
 			arch="aarch64"
-		elif [ "$(uname -m)" == "aarch*"]; then
+		elif [ "$(uname -m)" == "aarch*" ]; then
 			# Warning: untested
 			arch="aarch64"
 		else

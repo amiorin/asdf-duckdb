@@ -88,7 +88,7 @@ get_url() {
 			arch="arm64"
 		elif [ "$(uname -m)" == "aarch64" ]; then
 			# Warning: untested
-			arch="armh64"
+			arch="arm64"
 		else
 			# Warning: untested
 			arch="i386"
